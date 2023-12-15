@@ -10,7 +10,7 @@
 <body>
     <div class="container">
         <!-- lien vers la page d'ajout de tâche -->
-        <a href="ajouter.php" class="Btn_add"> <img src="images/plus.png"> Ajouter</a>
+        <a href="ajouter.php" class="Btn_add"> <img src="images/plus.png"> Ajouter une tâche</a>
         
         <table>
             <!-- En-têtes du tableau -->

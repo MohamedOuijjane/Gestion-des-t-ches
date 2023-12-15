@@ -52,15 +52,19 @@
                 }
             ?>
         </p>
-        <form action="" method="POST">
-            <label>Tâche</label>
-            <input type="text" name="tache" required>
-            <label>Description</label>
-            <input type="text" name="description" required>
-            <label>Etat d'avancement</label>
-            <input type="text" name="avancement" required>
-            <input type="submit" value="Ajouter la tâche" name="button">
-        </form>
+            <form action="" method="POST">
+                <label>Tâche</label>
+                <input type="text" name="tache" required>
+                
+                <label>Description</label>
+                <textarea name="description" required></textarea>
+                
+                <label>Etat d'avancement</label>
+                <input type="text" name="avancement" required>
+                
+                <input type="submit" value="Ajouter la tâche" name="button">
+             </form>
+
     </div>
 </body>
 </html>

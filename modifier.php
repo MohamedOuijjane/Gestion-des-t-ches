@@ -61,12 +61,16 @@
     <form action="" method="POST">
         <label>Tâche</label>
         <input type="text" name="tache" value="<?=$row['tache']?>">
+        
         <label>Description</label>
-        <input type="text" name="description" value="<?=$row['description']?>">
+        <textarea name="description"><?=$row['description']?></textarea>
+        
         <label>Etat d'avancement</label>
         <input type="text" name="avancement" value="<?=$row['avancement']?>">
+        
         <input type="submit" value="Modifier" name="button">
     </form>
+
 </div>
 </body>
 </html>
