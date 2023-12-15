@@ -1,0 +1,148 @@
+/* Importer la police Poppins depuis Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500&display=swap');
+
+/* Réinitialisation des styles de base */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Styles pour le corps de la page */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+/* Styles pour le bouton "Ajouter" */
+.Btn_add {
+    width: fit-content;
+    margin-bottom:20px;
+    background-color: #2511a7;
+    padding: 5px 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-align: 0;
+    border-radius: 6px;
+    text-decoration: 0;
+}
+
+/* Styles pour l'icône dans le bouton "Ajouter" */
+.Btn_add img {
+    margin-right: 5px;
+    height: 20px;
+}
+
+/* Styles pour le tableau */
+table {
+    border-collapse:collapse;
+    color: #0a071d;
+}
+
+/* Styles pour les en-têtes de tableau */
+th {
+    font-size: 16px;
+    border-bottom: 3px solid rgb(26, 8, 226);
+    padding: 5px 20px;
+    font-weight: 500;
+}
+
+/* Styles pour les cellules du tableau */
+td {
+    font-weight: 400;
+    padding: 5px 30px;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* Styles pour les images */
+img {
+    height: 25px;
+}
+
+/* Styles pour les lignes impaires du tableau */
+tr:nth-child(2n){
+    background-color: #f6f8f8;
+}
+
+/* Styles pour les cellules des lignes impaires du tableau */
+tr:nth-child(2n) td {
+    border-bottom: 1px solid #e0e0e0;
+    border-top:  1px solid #e0e0e0;
+}
+
+/* Styles pour le formulaire */
+.form {
+    background-color: #f6f8f8;
+    padding: 25px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border-radius: 6px;
+}
+
+/* Styles pour le formulaire en tant que flex container */
+.form form {
+    display: flex;
+    width: 350px;
+    flex-direction: column;
+}
+
+/* Styles pour le bouton de retour */
+.back_btn {
+    color: rgb(15, 3, 145);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+/* Styles pour l'icône dans le bouton de retour */
+.back_btn img {
+    height: 16px;
+    margin-right:5px ;
+}
+
+/* Styles pour le titre du formulaire */
+h2 {
+    margin: 10px 0;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+/* Styles pour les messages d'erreur */
+.erreur_message {
+    color: red;
+    font-size: 12px;
+}
+
+/* Styles pour les labels */
+label {
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+
+/* Styles pour les champs de saisie */
+input {
+    padding: 5px;
+    border: 1px solid rgb(26, 11, 116);
+    outline: 0;
+    margin-top: 2px;
+}
+
+/* Styles pour les champs de saisie au focus */
+input:focus {
+    border: 1px solid #ffcb61;
+}
+
+/* Styles pour le bouton de soumission du formulaire */
+input[type="submit"] {
+    margin-top: 25px;
+    background-color: #2b2dc4;
+    border: 1px solid #2424df;
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
+}
